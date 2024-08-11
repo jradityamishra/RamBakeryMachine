@@ -1,42 +1,49 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
 
 const Page = () => {
-    
+    const searchParams = useSearchParams();
+    const [product, setProduct] = useState(null);
+    const [selectedImage, setSelectedImage] = useState([]);
 
-    const images = [
-        "https://flowbite.s3.amazonaws.com/docs/gallery/featured/image.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-        "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
-    ];
-    const [selectedImage, setSelectedImage] = useState(images[0]);
+    useEffect(() => {
+        try {
+            const newparams = JSON.parse(searchParams.get('object'));
+            setProduct(newparams);
+            setSelectedImage(newparams.productImages || []);
+        } catch (error) {
+            console.error("Error parsing searchParams:", error);
+        }
+    }, [searchParams]);
 
-    const handleClick=(img)=>{
-        setSelectedImage(img);
+    const handleClick = (img) => {
+        setSelectedImage([img]);
     }
 
     return (
         <div>
             <div className='m-3'>
                 <div className="w-[50%] grid gap-4">
-                    <div>
-                        <img 
-                            className="h-auto max-w-full rounded-lg" 
-                            src={selectedImage} 
-                            alt="" 
-                            onClick={() => handleClick(images[0])}
-                        />
-                    </div>
+                    {selectedImage.length > 0 && (
+                        <div className="flex">
+                            <img
+                                className="h-auto max-w-full rounded-lg"
+                                src={selectedImage[0]}
+                                alt=""
+                                onClick={() => handleClick(selectedImage[0])}
+                            />
+                            
+                        </div>
+
+                    )}
                     <div className="grid grid-cols-5 gap-4">
-                        {images.slice(1).map((image, index) => (
+                        {selectedImage.slice(1).map((image, index) => (
                             <div key={index}>
-                                <img 
-                                    className="h-auto max-w-full rounded-lg cursor-pointer" 
-                                    src={image} 
-                                    alt="" 
+                                <img
+                                    className="h-auto max-w-full rounded-lg cursor-pointer"
+                                    src={image}
+                                    alt=""
                                     onClick={() => handleClick(image)}
                                 />
                             </div>
@@ -44,7 +51,15 @@ const Page = () => {
                     </div>
                 </div>
             </div>
-           
+
+            <div className='flex-center flex-col'>
+                {product && (
+                    <>
+                    <img src={product.featureImage} className="w-full h-auto  mb-4 rounded-lg" alt="image description" />
+                        <img src={product.ModelImage} className="w-full h-[300px] max-w-5xl mb-4 rounded-lg" alt="image description" />
+                    </>
+                )}
+            </div>
         </div>
     );
 }
