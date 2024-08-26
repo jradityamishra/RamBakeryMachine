@@ -28,12 +28,12 @@ const Page = () => {
                     {selectedImage.length > 0 && (
                         <div className="flex">
                             <img
-                                className="h-auto max-w-full rounded-lg"
+                                className="h-auto max-w-full text-white bg-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-900 shadow-blue-gray-900/40"
                                 src={selectedImage[0]}
                                 alt=""
                                 onClick={() => handleClick(selectedImage[0])}
                             />
-                            
+
                         </div>
 
                     )}
@@ -55,13 +55,24 @@ const Page = () => {
             <div className='flex-center flex-col'>
                 {product && (
                     <>
-                    <img src={product.featureImage} className="w-full h-auto  mb-4 rounded-lg" alt="image description" />
-                        <img src={product.ModelImage} className="w-full h-[300px] max-w-5xl mb-4 rounded-lg" alt="image description" />
+                        <div
+                            class="relative h-auto sm:hauto m-4 overflow-hidden text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-900 shadow-blue-gray-900/40">
+
+                            <img src={product.featureImage} className="w-full h-auto rounded-lg" alt="image description" />
+                        </div>
+                        <div
+                            class="relative h-200 overflow-hidden m-3 text-white shadow-lg bg-clip-border rounded-xl bg-blue-gray-500 shadow-blue-gray-500/40">
+
+                            <img src={product.ModelImage} className="w-full h-full  rounded-lg" alt="image description" />
+                        </div>
+
                     </>
                 )}
             </div>
         </div>
     );
+
+
 }
 
 export default Page;

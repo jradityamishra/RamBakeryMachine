@@ -480,7 +480,7 @@ export const productDetails = [
             }, {
                 Name: "SM-500",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM-500.jpg']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-307.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-307.png']
 
@@ -488,7 +488,7 @@ export const productDetails = [
             {
                 Name: "SM-230J",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM230J.png']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-307.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-307.png']
 
@@ -496,7 +496,7 @@ export const productDetails = [
             {
                 Name: "SM-230BS",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM230BS.png']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-307.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-307.png']
 
@@ -504,7 +504,7 @@ export const productDetails = [
             {
                 Name: "SM-860",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM860.png']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-860-670.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-860-670.png']
 
@@ -512,14 +512,14 @@ export const productDetails = [
             {
                 Name: "SM-860L",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM860L.png']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-860-670.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-860-670.png']
 
             }, {
                 Name: "SM-670",
                 details: "Dough Moulder series",
-                productImages: [],
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM-670.jpg']],
                 featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM-860-670.png'],
                 ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM-860-670.png']
 
@@ -527,16 +527,16 @@ export const productDetails = [
             {
                 Name: "SM2-380",
                 details: "Banguette Moulder series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM2380.png']],
+              featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM2-380.png'],
+                ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM2-380.png']
 
             }, {
                 Name: "SM2-380s",
                 details: "Banguette Moulder series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Divider, Divider Rounder and Moulder/SM-380S.jpg']],
+                featureImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/F-SM2-380.png'],
+                ModelImage: images['Sinmag Machine Divider, Divider Rounder and Moulder/T-SM2-380.png']
 
             },
 
@@ -546,101 +546,78 @@ export const productDetails = [
     {
         _id: "7",
         category: "Sheeter",
-        coverImage: images['Sinmag Machine Spiral Mixer and Planetarymixer/SM-7L.jpg'],
+        coverImage: images['sheeter/SM520S.png'],
         data: [
             {
                 Name: "SM-520S",
                 details: "Light duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            }, {
-                Name: "SM-500M",
-                details: "Light duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
-            {
-                Name: "SM-520S-BSL",
-                details: "Light duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
-            {
-                Name: "SM-SM-520F",
-                details: "Light duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['sheeter/SM520S.png']],
+                featureImage: images['sheeter/F-SM-520S.png'],
+                ModelImage:images['sheeter/T-SM-520S.png']
 
             },
             {
                 Name: "SM-520",
                 details: "Heavy duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['sheeter/SM-520,630,630S.png']],
+                featureImage: images['sheeter/F-SM-520.png'],
+                ModelImage: images['sheeter/T-SM-520.png']
 
             },
             {
                 Name: "SM-630",
                 details: "Heavy duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+             productImages: [images['sheeter/SM-520,630,630S.png']],
+                featureImage: images['sheeter/F-SM-520.png'],
+                ModelImage: images['sheeter/T-SM-520.png']
 
             },
             {
                 Name: "SM-630S",
                 details: "Heavy duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['sheeter/SM-520,630,630S.png']],
+               featureImage: images['sheeter/F-SM-520.png'],
+                ModelImage: images['sheeter/T-SM-520.png']
 
             },
             {
                 Name: "SM-620A",
                 details: "Heavy duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['sheeter/SM-620A.png']],
+               featureImage: images['sheeter/F-SM-520.png'],
+                ModelImage: images['sheeter/T-SM-520.png']
 
             },
             {
                 Name: "SM-650",
                 details: "Heavy duty series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['sheeter/SM2-650.png']],
+               featureImage: images['sheeter/F-SM-520.png'],
+                ModelImage: images['sheeter/T-SM-520.png']
 
             },
             {
                 Name: "SM-630E",
                 details: "Europian Style Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['sheeter/SM-630E.png']],
+               featureImage: images['sheeter/F-SM-630.png'],
+                ModelImage: images['sheeter/T-SM-630.png']
 
             },
             {
                 Name: "SM-520E",
                 details: "Europian Style Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['sheeter/SM-630E.png']],
+               featureImage: images['sheeter/F-SM-630.png'],
+                ModelImage: images['sheeter/T-SM-630.png']
 
             },
             {
                 Name: "SM-630C",
                 details: "Europian Style Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['sheeter/SM-630E.png']],
+              featureImage: images['sheeter/F-SM-630.png'],
+                ModelImage: images['sheeter/T-SM-630.png']
 
             },
 
@@ -655,24 +632,24 @@ export const productDetails = [
             {
                 Name: "CTL-540",
                 details: "Make Up Line",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['croissant/CR-540.png']],
+                featureImage: images['croissant/F-CR-4000.png'],
+                ModelImage: images['croissant/T-CR-4000.png']
 
             }, {
                 Name: "CTL-4000",
                 details: "Make Up Line",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['croissant/CR-4000.png']],
+                featureImage: images['croissant/F-CR-4000.png'],
+                ModelImage: images['croissant/T-CR-4000.png']
 
             },
             {
                 Name: "CTL-620",
                 details: "Make Up Line",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['croissant/CR-630C.png']],
+               featureImage: images['croissant/F-CR-4000.png'],
+                ModelImage: images['croissant/T-CR-4000.png']
 
             },
 
@@ -686,224 +663,223 @@ export const productDetails = [
             {
                 Name: "SM-32S",
                 details: "Simple Proofer series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-32S.png']],
+                featureImage: images['proofer/F-SM-32S-32F-48F.png'],
+                ModelImage: images['proofer/T-SM-32S,32F,48F.png']
 
             }, {
                 Name: "SM-32F",
                 details: "Simple Proofer series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-32F,48F.png']],
+                featureImage: images['proofer/F-SM-32S-32F-48F.png'],
+                ModelImage: images['proofer/T-SM-32S,32F,48F.png']
 
             },
             {
                 Name: "SM-48F",
                 details: "Simple Proofer series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-32F,48F.png']],
+                featureImage: images['proofer/F-SM-32S-32F-48F.png'],
+                ModelImage: images['proofer/T-SM-32S,32F,48F.png']
 
             },
             {
                 Name: "SM-16FT",
                 details: "With Fixed Shelves Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-16FT.png']],
+                featureImage: images['proofer/F-SM-16FT,32FT,40SP,80FP (2).png'],
+                ModelImage: images['proofer/T-SM-16FT,32FT,40SP,80FP.png']
 
             },
             {
                 Name: "SM-32FT",
                 details: "With Fixed Shelves Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-32FT.png']],
+              featureImage: images['proofer/F-SM-16FT,32FT,40SP,80FP (2).png'],
+                ModelImage: images['proofer/T-SM-16FT,32FT,40SP,80FP.png']
 
             },
             {
                 Name: "SM-40SP",
                 details: "With Fixed Shelves Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-40SP.png']],
+               featureImage: images['proofer/F-SM-16FT,32FT,40SP,80FP (2).png'],
+                ModelImage: images['proofer/T-SM-16FT,32FT,40SP,80FP.png']
 
             },
             {
                 Name: "SM-80FP",
                 details: "With Fixed Shelves Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/SM-80FP.png']],
+               featureImage: images['proofer/F-SM-16FT,32FT,40SP,80FP (2).png'],
+                ModelImage: images['proofer/T-SM-16FT,32FT,40SP,80FP.png']
 
             },
             {
                 Name: "ST-2R",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST-2R.png']],
+               featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "ST-4R",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST-4R,6R,8R.png']],
+                featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "ST-6R",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST-4R,6R,8R.png']],
+                featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "ST-8R",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST-4R,6R,8R.png']],
+                featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "ST100",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST100,200.png']],
+                featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "ST200",
                 details: "Roll In Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/ST100,200.png']],
+                featureImage: images['proofer/F-ST-2R-ST-200.png'],
+                ModelImage: images['proofer/T-ST-2R,4R,6R,8R,100,200.png']
 
             },
             {
                 Name: "DC-18S",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-18S.png']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-18F",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-18F.png']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-36F",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/dc-36f.jpg']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-36SA",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/dc-36sa.png']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-232S",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-232S.jpg']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-236S",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-236S,236SZ.png']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
 
             },
             {
                 Name: "DC-236SZ",
                 details: "With Fixed Sheleves",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
+                productImages: [images['proofer/DC-236S,236SZ.png']],
+                featureImage: images['proofer/F-DC-18S,18F,36F,36SA,232S,236S,236SZ.png'],
+                ModelImage: images['proofer/T-DC-18S,18F,36SA,232S,236S,236SZ.png']
             },
             {
                 Name: "DC-2R",
                 details: "Roll In Retarder Proofer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-2R.png']],
+                featureImage: images['proofer/F-DC-2R-8R.png'],
+                ModelImage: images['proofer/T-DC-2R,4R,6R,8R.png']
 
             },
             {
                 Name: "DC-4R",
                 details: "Roll In Retarder Proofer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['proofer/DC-4R,6R,8R.png']],
+                featureImage: images['proofer/F-DC-2R-8R.png'],
+                ModelImage: images['proofer/T-DC-2R,4R,6R,8R.png']
 
             },
             {
                 Name: "DC-6R",
                 details: "Roll In Retarder Proofer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+             productImages: [images['proofer/DC-4R,6R,8R.png']],
+             featureImage: images['proofer/F-DC-2R-8R.png'],
+             ModelImage: images['proofer/T-DC-2R,4R,6R,8R.png']
 
             },
             {
                 Name: "DC-8R",
                 details: "Roll In Retarder Proofer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['proofer/DC-4R,6R,8R.png']],
+              featureImage: images['proofer/F-DC-2R-8R.png'],
+              ModelImage: images['proofer/T-DC-2R,4R,6R,8R.png']
 
             },
             {
                 Name: "SM-716F",
                 details: "Base Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['proofer/DC-716F.png']],
+               featureImage: images['proofer/F-SM-716-15F.png'],
+               ModelImage: images['proofer/T-SM-716,716F,TO15F.png']
 
             },
             {
                 Name: "SK-12P",
                 details: "Base Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['proofer/SK-12P.png']],
+               featureImage: images['proofer/F-SM-716-15F.png'],
+               ModelImage: images['proofer/T-SM-716,716F,TO15F.png']
 
             },
             {
                 Name: "SM-10FG",
                 details: "Base Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['proofer/SM-10FG.png']],
+              featureImage: images['proofer/F-SM-716-15F.png'],
+              ModelImage: images['proofer/T-SM-716,716F,TO15F.png']
 
             },
             {
                 Name: "SM-15F",
                 details: "Base Proofer Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['proofer/SM-15F.png']],
+               featureImage: images['proofer/F-SM-716-15F.png'],
+               ModelImage: images['proofer/T-SM-716,716F,TO15F.png']
 
             },
 
@@ -918,80 +894,50 @@ export const productDetails = [
             {
                 Name: "SM-705G",
                 details: "Gas Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-705G.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM-705G-710G.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM-705G-710G.png']
 
             }, {
                 Name: "SM-710G",
                 details: "Gas Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-710G.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM-705G-710G.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM-705G-710G.png']
 
             },
             {
                 Name: "SM-704E",
                 details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-704E.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM-704E-710EE.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM-704E-710EE.png']
 
             },
             {
                 Name: "SM-705EE",
                 details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-705E,705EB,805E.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM-704E-710EE.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM-704E-710EE.png']
 
             },
-            {
-                Name: "SM-704EB",
-                details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
+         
             {
                 Name: "SM-710EE",
                 details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-710EE,710EB,810E..jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM-704E-710EE.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM-704E-710EE.png']
 
             },
-            {
-                Name: "SM-710EB",
-                details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
-            {
-                Name: "SM-805E",
-                details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
-            {
-                Name: "SM-810E",
-                details: "Electrical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
-            },
+           
             {
                 Name: "SM-RV1",
                 details: "Fixed Pack",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/RV1.png']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-RV1.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-RV1.png']
 
             },
 
@@ -1007,112 +953,115 @@ export const productDetails = [
             {
                 Name: "RV2",
                 details: "Hook Lifting System",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/RV2.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-RV2.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-RV2.png']
 
             }, {
                 Name: "F1",
                 details: "F Series(Turntable)",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/F1,F2,F3,F4.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-F1,F2,F3,F4.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-F1,F2,F3,F4.png']
 
             },
             {
                 Name: "F2",
                 details: "F Series(Turntable)",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['Sinmag Machine Convection Oven and Deckoven/F1,F2,F3,F4.png']],
+              featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-F1,F2,F3,F4.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-F1,F2,F3,F4.png']
 
             },
             {
                 Name: "F3",
                 details: "F Series(Turntable)",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/F1,F2,F3,F4.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-F1,F2,F3,F4.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-F1,F2,F3,F4.png']
 
             },
             {
                 Name: "F4",
                 details: "F Series(Turntable)",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/F1,F2,F3,F4.png']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-F1,F2,F3,F4.png'],
+               ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-F1,F2,F3,F4.png']
 
             },
             {
                 Name: "SV1",
                 details: "SV Turntable Or Hook Lifting System",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SV1,SV2,SV3.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SV1,SV2,SV3.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SV1,SV2,SV3.png']
 
             },
             {
                 Name: "SV2",
                 details: "SV Turntable Or Hook Lifting System",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SV1,SV2,SV3.png']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SV1,SV2,SV3.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SV1,SV2,SV3.png']
 
             },
             {
                 Name: "SV3",
                 details: "SV Turntable Or Hook Lifting System",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SV1,SV2,SV3.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SV1,SV2,SV3.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SV1,SV2,SV3.png']
 
             },
             {
                 Name: "LRO-1E/1G",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/LRO-1E1G,2E2G.png']],
+              featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-LRO-1E1G,2E2G.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-LRO-1E1G,2E2G.png']
 
             },
             {
                 Name: "LRO-2E/2G",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/LRO-1E1G,2E2G.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-LRO-1E1G,2E2G.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-LRO-1E1G,2E2G.png']
 
             },
             {
                 Name: "LMO-max-E",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/LMOMaxE,MaxG.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ROLL-IN AMERICAN.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ROLL-IN AMERICAN.png']
 
             },
             {
                 Name: "LMO-Max-G",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/LMOMaxE,MaxG.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ROLL-IN AMERICAN.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ROLL-IN AMERICAN.png']
+
 
             },
             {
                 Name: "LMO-E6/G6",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/LMOE6G6,E8G8.png']],
+              featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ROLL-IN AMERICAN.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ROLL-IN AMERICAN.png']
+
 
             },
             {
                 Name: "LMO-E8/G8",
                 details: "Roll-In American Rack Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/LMOE6G6,E8G8.png']],
+              featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ROLL-IN AMERICAN.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ROLL-IN AMERICAN.png']
+
 
             },
 
@@ -1127,192 +1076,207 @@ export const productDetails = [
             {
                 Name: "SK2-P6/SK2-623",
                 details: "Asian Sk Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P623SK2623.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK.png']
 
             }, {
                 Name: "SK2-P634/SK-634",
                 details: "Asian Sk Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P634SKP634TSKP644T.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK.png']
+
+
 
             },
             {
                 Name: "SK2-P634T/SK-634T",
                 details: "Asian Sk Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P634SKP634TSKP644T.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK.png']
+
 
             },
             {
                 Name: "SK2-P644/SK-644",
                 details: "Asian Sk Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P634SKP634TSKP644T.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK.png']
+
 
             },
             {
                 Name: "SK2-P644F/SK-644F",
                 details: "Asian Sk Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P634SKP634TSKP644T.png']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK.png']
+
 
             },
             {
                 Name: "SK2-P923/SK2-923",
                 details: "Asian Sk6 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P634SKP634TSKP644T.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK6.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK6.png']
+
+
 
             },
             {
                 Name: "SK-P934/SK-934",
                 details: "Asian Sk6 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P934.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK6.png'],
+               ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK6.png']
 
             },
             {
                 Name: "SK2-P943T/SK-934T",
                 details: "Asian Sk6 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P934.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK6.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK6.png']
 
             },
             {
                 Name: "SK2-P944/SK-944",
                 details: "Asian Sk6 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P934.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK6.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK6.png']
 
             },
             {
                 Name: "SK2-P944F/SK-944F",
                 details: "Asian Sk6 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SK2-P934.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-ASIAN SK6.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-ASIAN SK6.png']
 
             },
             {
                 Name: "SM2-905C",
                 details: "Classical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
+                 productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-901C.jpg']],
+                 featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-CLASSICAL SERIES.png'],
+                 ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-CLASSICAL SERIES.png']
+ 
             },
             {
                 Name: "SM2-523",
                 details: "Classical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM2-523.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-CLASSICAL SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-CLASSICAL SERIES.png']
+
 
             },
             {
                 Name: "SM2-603A",
                 details: "Classical Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
-
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-603A.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-CLASSICAL SERIES.png'],
+                 ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-CLASSICAL SERIES.png']
+ 
             },
             {
                 Name: "MB2-623",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB2-623,923.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
 
             },
             {
                 Name: "MB-634T",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-644F,634T,934T,944F,934A.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
+
 
             },
             {
                 Name: "MB-644F",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-644F,634T,934T,944F,934A.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
+
 
             },
             {
                 Name: "MB-923",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB2-623,923.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
+
 
             },
             {
                 Name: "MB-934T",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-644F,634T,934T,944F,934A.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
+
 
             },
             {
                 Name: "MB-644F",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-644F,634T,934T,944F,934A.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+               ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
+
 
             },
             {
                 Name: "MB-634A",
                 details: "MB Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-644F,634T,934T,944F,934A.jpg']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB SERIES.png'],
+               ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB SERIES.png']
 
             },
             {
                 Name: "SE941/2/3/4",
                 details: "SE Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Convection Oven and Deckoven/SE-981F2F3F4F,941F2F3F4F.png']],
+               featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SE SERIES.png'],
+               ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SE SERIES.png']
+
 
             },
             {
                 Name: "SE981/2/3/4",
                 details: "SE Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SE-981F2F3F4F,941F2F3F4F.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SE SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SE SERIES.png']
 
             },
             {
                 Name: "SM-284",
                 details: "American Style",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM284.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-AMERICAN STYLE.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-AMERICAN STYLE.png']
 
             },
             {
                 Name: "SM-384",
                 details: "American Style",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM384.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-AMERICAN STYLE.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-AMERICAN STYLE.png']
+
 
             },
 
@@ -1327,39 +1291,40 @@ export const productDetails = [
             {
                 Name: "MB-823",
                 details: "MB8 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/MB-823.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-MB-823.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-MB-823.png']
+
 
             }, {
                 Name: "SM-803T",
                 details: "SM8 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-803T,803F,803S.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM8 SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM8 SERIES.png']
 
             }, {
                 Name: "SM-803F",
                 details: "SM8 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-803T,803F,803S.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM8 SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM8 SERIES.png']
 
             },
             {
                 Name: "SM-803S",
                 details: "SM8 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-803T,803F,803S.jpg']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM8 SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM8 SERIES.png']
 
             },
             {
                 Name: "SM-803A",
                 details: "SM8 Series",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Convection Oven and Deckoven/SM-803A.png']],
+                featureImage:images['Sinmag Machine Convection Oven and Deckoven/F-SM8 SERIES.png'],
+                ModelImage: images['Sinmag Machine Convection Oven and Deckoven/T-SM8 SERIES.png']
 
             },
 
@@ -1374,164 +1339,173 @@ export const productDetails = [
             {
                 Name: "HS-3",
                 details: "Horizontal Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/HS3S.png']],
+                featureImage: images['slicer/F-HS-3.png'],
+                ModelImage:images['slicer/T-HS-3.png']
 
             }, {
                 Name: "HS-3S",
                 details: "Horizontal Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/HS3S.png']],
+                featureImage: images['slicer/F-HS-3.png'],
+                ModelImage:images['slicer/T-HS-3.png']
 
             }, {
                 Name: "HS2-3S",
                 details: "Horizontal Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/HS23S.png']],
+                featureImage: images['slicer/F-HS-3.png'],
+                ModelImage:images['slicer/T-HS-3.png']
 
             }, {
                 Name: "SM-52A",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52A.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
 
             }, {
                 Name: "SM-52B",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52B,52C,52D.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
+
 
             }
             , {
                 Name: "SM-52C",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52B,52C,52D.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
+
 
             }, {
                 Name: "SM-52D",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52B,52C,52D.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
+
 
             }, {
                 Name: "SM-52E",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['slicer/SM52E.png']],
+               featureImage: images['slicer/F-SM-52A.png'],
+               ModelImage:images['slicer/T-SM-52A.png']
 
             }, {
                 Name: "SM-52F",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52F.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
 
             }, {
                 Name: "SM-52G",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52G.png']],
+                featureImage: images['slicer/F-SM-52A.png'],
+                ModelImage:images['slicer/T-SM-52A.png']
+
 
             }, {
                 Name: "SM52W-B",
                 details: "Bread Slicer-Dual Slicing & Thickness",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52W-B.png']],
+                featureImage: images['slicer/F-DUAL SCLICING.png'],
+                ModelImage:images['slicer/T-DUAL SCLICING.png']
+
 
             }, {
                 Name: "SM52W-C",
                 details: "Bread Slicer-Dual Slicing & Thickness",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52W-B.png']],
+                featureImage: images['slicer/F-DUAL SCLICING.png'],
+                ModelImage:images['slicer/T-DUAL SCLICING.png']
 
             }, {
                 Name: "SM52W-D",
                 details: "Bread Slicer-Dual Slicing & Thickness",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM52W-B.png']],
+                featureImage: images['slicer/F-DUAL SCLICING.png'],
+                ModelImage:images['slicer/T-DUAL SCLICING.png']
 
             }, {
                 Name: "PC-16C",
                 details: "Bread Slicer-Table Top Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/PC16,16C.png']],
+                featureImage: images['slicer/F-TABLE TOP SLICER.png'],
+                ModelImage:images['slicer/T-TABLE TOP SLICER.png']
 
             }, {
                 Name: "PC-16",
                 details: "Bread Slicer-Table Top Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/PC16,16C.png']],
+                featureImage: images['slicer/F-TABLE TOP SLICER.png'],
+                ModelImage:images['slicer/T-TABLE TOP SLICER.png']
+
 
             }, {
                 Name: "PC-302N",
                 details: "Bread Slicer-Table Top Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM302N,322N.png']],
+                featureImage: images['slicer/F-TABLE TOP SLICER.png'],
+                ModelImage:images['slicer/T-TABLE TOP SLICER.png']
+
 
             }, {
                 Name: "PC-322N",
                 details: "Bread Slicer-Table Top Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM302N,322N.png']],
+                featureImage: images['slicer/F-TABLE TOP SLICER.png'],
+                ModelImage:images['slicer/T-TABLE TOP SLICER.png']
 
             }, {
                 Name: "CT-808T",
                 details: "Cake Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/CT808T.png']],
+                featureImage: images['slicer/F-CT-808T.png'],
+                ModelImage:images['slicer/T-CT-808T.png']
+
 
             }, , {
                 Name: "SMS-30",
                 details: "Bread Slicer-Band Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['slicer/SMS30.png']],
+              featureImage: images['slicer/F-SMS-30.png'],
+              ModelImage:images['slicer/T-SMS-30.png']
+
 
             }, {
                 Name: "SX-30",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['slicer/SX30.png']],
+              featureImage: images['slicer/F-SX-30,SF-21.png'],
+              ModelImage:images['slicer/T-SX-30,SF-21.png']
 
             }, {
                 Name: "SF-21",
                 details: "Bread Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['slicer/SF21.png']],
+               featureImage: images['slicer/F-SX-30,SF-21.png'],
+              ModelImage:images['slicer/T-SX-30,SF-21.png']
 
             }, {
                 Name: "SM-313",
                 details: "Bun Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['slicer/SM313,513.png']],
+              featureImage: images['slicer/F-BUN SLICER.png'],
+              ModelImage:images['slicer/T-BUN SLICER.png']
 
             }, {
                 Name: "SM-513",
                 details: "Bun Slicer",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['slicer/SM313,513.png']],
+                featureImage: images['slicer/F-BUN SLICER.png'],
+                ModelImage:images['slicer/T-BUN SLICER.png']
 
             }
 
@@ -1547,51 +1521,54 @@ export const productDetails = [
             {
                 Name: "SMC-180",
                 details: "Water Cooler & Flow Controller",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMC-180.jpg']],
+                featureImage: images['Sinmag Machine Others/F-SMC-180,WM-175.png'],
+                ModelImage: images['Sinmag Machine Others/T-SMC-180,WM-175.png']
 
             }, {
                 Name: "WM-175",
                 details: "Water Cooler & Flow Controller",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/WM-175.jpg']],
+                featureImage: images['Sinmag Machine Others/F-SMC-180,WM-175.png'],
+                ModelImage: images['Sinmag Machine Others/T-SMC-180,WM-175.png']
+
 
             }, {
                 Name: "QM-210",
                 details: "Chocolate Shaver",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/QM-210.jpg']],
+                featureImage: images['Sinmag Machine Others/F-QM-210,QM-210CE.png'],
+                ModelImage: images['Sinmag Machine Others/T-QM-210,QM-210CE.png']
+
 
             }, {
                 Name: "QM-210CE",
                 details: "Chocolate Shaver",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/QM-210CE.png']],
+               featureImage: images['Sinmag Machine Others/F-QM-210,QM-210CE.png'],
+                ModelImage: images['Sinmag Machine Others/T-QM-210,QM-210CE.png']
 
             }, {
                 Name: "SFP-C20EA",
                 details: "Pizza Conveyor Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SFP-C20EA.png']],
+             featureImage: images['Sinmag Machine Others/F-PIZZA CONVEYOR OVEN.png'],
+                ModelImage: images['Sinmag Machine Others/T-PIZZA CONVEYOR OVEN.png']
 
             }, {
                 Name: "SFP-C36E2/SFP-C36GA",
                 details: "Pizza Conveyor Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SFP-C36EA.png']],
+                featureImage: images['Sinmag Machine Others/F-PIZZA CONVEYOR OVEN.png'],
+                ModelImage: images['Sinmag Machine Others/T-PIZZA CONVEYOR OVEN.png']
+
 
             }, {
                 Name: "SFP-C40EA",
                 details: "Pizza Conveyor Oven",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SFP-C40EA.png']],
+                featureImage: images['Sinmag Machine Others/F-PIZZA CONVEYOR OVEN.png'],
+                ModelImage: images['Sinmag Machine Others/T-PIZZA CONVEYOR OVEN.png']
 
             }
 
@@ -1605,164 +1582,164 @@ export const productDetails = [
             {
                 Name: "SMD-1P/80",
                 details: "Capacity:1800pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMD-1P80.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-1.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-1.png']
 
             }, {
                 Name: "SMQ-30S",
                 details: "Capacity:1800pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMQ-30.png']],
+               featureImage: images['Sinmag Machine Others/F-LINE-1.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-1.png']
+
 
             },
             {
                 Name: "SMP-70",
                 details: "Capacity:1800pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMP-70.jpg']],
+                featureImage: images['Sinmag Machine Others/F-LINE-1.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-1.png']
+
 
             }, {
                 Name: "SM2-380B",
                 details: "Capacity:1800pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SM2-380B.jpeg']],
+                featureImage: images['Sinmag Machine Others/F-LINE-1.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-1.png']
 
-            }, {
-                Name: "SMD-1P/80",
-                details: "Capacity:1800pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
 
             },
             {
                 Name: "SMD-2P/2",
                 details: "Capacity:2400Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMD-2P,SMD-4P.png']],
+              featureImage: images['Sinmag Machine Others/F-LINE-2.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-2.png']
+
 
             }, {
                 Name: "SMQ-30S",
                 details: "Capacity:2400Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMQ-30.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-2.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-2.png']
+
 
             },
             {
                 Name: "SMP-90",
                 details: "Capacity:2400Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['Sinmag Machine Others/SMP-70.jpg']],
+              featureImage: images['Sinmag Machine Others/F-LINE-2.png'],
+              ModelImage: images['Sinmag Machine Others/T-LINE-2.png']
 
             },
             {
                 Name: "SDM-340B",
                 details: "Capacity:2400Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SDM-340B.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-2.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-2.png']
+
 
             },
             {
                 Name: "SMD-2P/2",
                 details: "Capacity:3000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+              productImages: [images['Sinmag Machine Others/SMD-2P,SMD-4P.png']],
+              featureImage: images['Sinmag Machine Others/F-LINE-3.png'],
+              ModelImage: images['Sinmag Machine Others/T-LINE-3.png']
+
 
             },
             {
                 Name: "SMQ-30S",
                 details: "Capacity:3000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMQ-30.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-3.png'],
+              ModelImage: images['Sinmag Machine Others/T-LINE-3.png']
 
             }, {
                 Name: "SPQ-8112",
                 details: "Capacity:3000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SPQ-8112.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-3.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-3.png']
 
             },
             {
                 Name: "SDM-340B",
                 details: "Capacity:3000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SDM-340B.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-3.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-3.png']
 
             },
             {
                 Name: "SMD-2P/3",
                 details: "Capacity:4500Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMD-2P,SMD-4P.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-4.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-4.png']
 
             },
             {
                 Name: "SMQ-V6",
                 details: "Capacity:4500Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMQ-v6.jpg']],
+                featureImage: images['Sinmag Machine Others/F-LINE-4.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-4.png']
 
             },
             {
                 Name: "SPQ-8172",
                 details: "Capacity:4500Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SPQ-8112.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-4.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-4.png']
 
             },
             {
                 Name: "SDM-340B2",
                 details: "Capacity:4500Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SDM-340B2.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-4.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-4.png']
 
             },
             {
                 Name: "SMD-4P/4",
                 details: "Capacity:6000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMD-2P,SMD-4P.png']],
+                featureImage: images['Sinmag Machine Others/F-LINE-5.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-5.png']
 
             },
             {
                 Name: "SMQ-V6",
                 details: "Capacity:6000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SMQ-v6.jpg']],
+                featureImage: images['Sinmag Machine Others/F-LINE-5.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-5.png']
 
             },
             {
                 Name: "SPQ-10175",
                 details: "Capacity:6000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+                productImages: [images['Sinmag Machine Others/SPQ-10175.png']],
+               featureImage: images['Sinmag Machine Others/F-LINE-5.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-5.png']
 
             },
             {
                 Name: "SDM-340B2",
                 details: "Capacity:6000Pic/Hr",
-                productImages: [],
-                featureImage: "",
-                ModelImage: ""
+               productImages: [images['Sinmag Machine Others/SDM-340B2.png']],
+               featureImage: images['Sinmag Machine Others/F-LINE-5.png'],
+                ModelImage: images['Sinmag Machine Others/T-LINE-5.png']
 
             },
         ]
