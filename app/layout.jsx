@@ -25,7 +25,7 @@ const RootLayout = ({ children }) => (
           <Nav />
           <SubNavbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
         </main>
       </Provider>
     </body>
