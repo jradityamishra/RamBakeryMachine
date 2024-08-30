@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from "next/link";
 const page = () => {
   return (
     <>
@@ -23,8 +23,8 @@ const page = () => {
                         <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300 dark:bg-gray-900"></span>
                     <span class="relative"> Have a question? </span>
                     </span>
-                    <br class="block sm:hidden" />Ask me on <a href="#" title=""
-                        class="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline">Twitter</a>
+                    <br class="block sm:hidden" />Ask me on <Link href="#" title=""
+                        class="transition-all duration-200 text-sky-500 dark:text-sky-400 hover:text-sky-600 dark:hover:text-sky-500 hover:underline">Twitter</Link>
                 </p>
             </div>
 

@@ -56,11 +56,11 @@ const SmallSlider = () => {
                             />
                         </Link>
                         <div className="px-4 pb-4">
-                            <a href={`/products/${data._id}`}>
+                            <Link href={`/products/${data._id}`}>
                                 <h5 className="text-lg font-semibold tracking-tight text-gray-900 dark:text-white">
                                     {data.category.length > 20 ? `${data.category.slice(0, 18)}...` : data.category}
                                 </h5>
-                            </a>
+                            </Link>
                             <div className="flex items-center mt-2 mb-2">
                                 <div className="flex items-center space-x-1">
                                     {[...Array(4)].map((_, i) => (

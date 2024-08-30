@@ -1,7 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
-
+import Image from "next/image";
+import Link from "next/link";
 const Page = () => {
     const searchParams = useSearchParams();
     const [product, setProduct] = useState(null);
@@ -23,7 +24,7 @@ const Page = () => {
 
     return (
         <div>
-            <div className='m-3'>
+            <div className='m-3 flex'>
                 <div className="w-[50%] grid gap-4">
                     {selectedImage.length > 0 && (
                         <div className="flex">
@@ -50,7 +51,22 @@ const Page = () => {
                         ))}
                     </div>
                 </div>
+                <div className="w-[50%] flex flex-col justify-center items-center">
+                    <h1 className="text-xl sm:text-2xl font-bold">Send Your Enquire</h1>
+                       
+                    <Link href={`${process.env.NEXT_PUBLIC_WHATSAPP_URL}`}>
+                        <Image
+                            src='/assets/images/ws.png'
+                            alt='logo'
+                            width={150}
+                            height={150}
+                            className='object-contain'
+                        />
+
+                    </Link>
+                </div>
             </div>
+
 
             <div className='flex-center flex-col'>
                 {product && (

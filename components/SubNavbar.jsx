@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import * as Separator from '@radix-ui/react-separator';
-import { slide as Menu } from 'react-burger-menu'; // Import from react-burger-menu
-
-
+import { slide as Menu } from 'react-burger-menu';
+import Link from "next/link";
 const SubNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,74 +12,60 @@ const SubNavbar = () => {
   return (
     <>
       {/* Hamburger menu for mobile */}
-      <div className="sm:hidden flex ">
-        <button onClick={toggleMenu} className="hamburger-button m-auto">
-          ☰
-        </button>
-        <Menu right isOpen={isOpen} onStateChange={({ isOpen }) => setIsOpen(isOpen)}>
-          <a href="#" className="menu-item" onClick={toggleMenu}>Home</a>
-          <a href="#" className="menu-item" onClick={toggleMenu}>About</a>
-          <a href="/products" className="menu-item" onClick={toggleMenu}>Products</a>
-          <a href="#" className="menu-item" onClick={toggleMenu}>Sinmag</a>
-          <a href="#" className="menu-item" onClick={toggleMenu}>Our Customer</a>
-          <a href="#" className="menu-item" onClick={toggleMenu}>Product Line</a>
-          <a href="#" className="menu-item" onClick={toggleMenu}>Contact Us</a>
-        </Menu>
-      </div>
+
 
       {/* Inline navbar for larger screens */}
-      <div className="hidden sm:flex flex-row py-1 justify-around text-white items-center rounded-md" style={{ backgroundColor: "rgb(30 149 241)" }}>
-        <a href="#" className='cursor-pointer'>
+      <div
+        className="hidden md:flex w-full items-center text-white rounded-md bg-blue-500 sm:py-1 md:py-2 lg:py-3 justify-around md:justify-between lg:justify-evenly"
+      >
+
+        <Link href="/" className='cursor-pointer'>
           Home
-        </a>
+        </Link>
         <Separator.Root
           className='SeparatorRoot'
           decorative
           orientation="vertical"
         />
-        <a href="#" className='cursor-pointer'>
-          About
-        </a>
+        <Link href="/about" className='cursor-pointer'>
+          About us
+        </Link>
         <Separator.Root
           className='SeparatorRoot'
           decorative
           orientation="vertical"
         />
-        <a href="/products" className='cursor-pointer'>
+        <Link href="/products" className='cursor-pointer'>
           Products
-        </a>
+        </Link>
         <Separator.Root
           className='SeparatorRoot'
           decorative
           orientation="vertical"
         />
-        <a href="#">
+        <Link href="/sinmag">
           Sinmag
-        </a>
+        </Link>
         <Separator.Root
           className='SeparatorRoot'
           decorative
           orientation="vertical"
         />
-        <a href="#">
+        <Link href="/OurCustomer">
           Our Customer
-        </a>
-        <Separator.Root
-          className='SeparatorRoot'
-          decorative
-          orientation="vertical"
-        />
-        <a href="#">
+        </Link>
+
+        {/* <Link href="#">
           Product Line
-        </a>
+        {/* </Link> */}
         <Separator.Root
           className='SeparatorRoot'
           decorative
           orientation="vertical"
         />
-        <a href="#">
+        <Link href="/contactUs">
           Contact Us
-        </a>
+        </Link>
       </div>
     </>
   );

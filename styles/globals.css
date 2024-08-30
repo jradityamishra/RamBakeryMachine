@@ -76,14 +76,64 @@
 .dark-overlay {
   position: relative;
 }
+/* review page */
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            width: 16px !important;
+            height: 4px !important;
+            border-radius: 5px !important;
+            margin: 0 6px !important;
+        }
+
+        .swiper-pagination {
+            bottom: 2px !important;
+        }
+
+        .swiper-wrapper {
+            height: max-content !important;
+            width: max-content !important;
+            padding-bottom: 64px;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #4F46E5 !important;
+        }
+        
+        .swiper-slide.swiper-slide-active>.slide_active\:border-indigo-600 {
+            --tw-border-opacity: 1;
+            border-color: rgb(79 70 229 / var(--tw-border-opacity));
+        }
+
+        .swiper-slide.swiper-slide-active>.group .slide_active\:text-gray-800 {
+            ---tw-text-opacity: 1;
+            color: rgb(31 41 55 / var(--tw-text-opacity));
+        }
+/* Responsive */
+@media (max-width: 1024px) {
+  .carousel-item {
+    flex: 0 0 33.333%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+}
+
 
 /* HANGBURGER */
 
 .hamburger-button {
-  background-color: hsl(240, 76%, 60%);
   margin: auto;
   border: none;
-  color: white;
+  color: black;
   font-size: 24px;
   padding: 3px;
   cursor: pointer;
@@ -95,6 +145,20 @@
   color: white;
   text-decoration: none;
   background-color: rgb(30, 149, 241);
+}
+
+
+.bm-menu{
+  margin-top:20px;
+}
+
+.menu-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd; /* Optional divider between items */
+}
+
+.menu-item:last-child {
+  border-bottom: none;
 }
 
 .menu-item:hover {
