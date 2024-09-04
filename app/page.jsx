@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
 import Heading from "@components/Heading";
@@ -7,8 +8,10 @@ import ValubaleconstomerHome from "@components/ValubaleconstomerHome";
 import ImageSlider from "@components/ImgesSlider";
 import Youtubeslider from "@components/Youtubeslider";
 import CustomerReview from "@components/CustomerReview";
+import { useEffect, useState } from "react";
 
 const Home = () => (
+ 
   <>
     <div className="fixed bottom-10 right-16 z-10">
       <Link href={`${process.env.NEXT_PUBLIC_WHATSAPP_URL}`}>
