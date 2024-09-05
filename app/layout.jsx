@@ -1,4 +1,4 @@
-'use client'
+
 import "@styles/globals.css";
 import SubNavbar from "@components/SubNavbar";
 import {useEffect} from "react";
