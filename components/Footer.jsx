@@ -86,7 +86,7 @@ const Footer = () => {
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Contact Details</h2>
             <nav className="list-none mb-10">
               <p className="text-gray-600">Mobile No:+919461220842</p>
-              <p className="text-gray-600 break-words">Email:info.rambakerymachinesengineer@gmail.com</p>
+              <p className="text-gray-600 " style={{ wordBreak: 'break-word' }}>Email:info.rambakerymachinesengineer@gmail.com</p>
               <br />
               <p>Address:102, North Purbachal Haltu, Kolkata</p>
             </nav>

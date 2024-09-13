@@ -140,7 +140,7 @@ const Nav = () => {
                   right
                   isOpen={isOpen}
                   onStateChange={({ isOpen }) => setIsOpen(isOpen)}
-                  className="bm-menu"
+                  className="bm-menu bm-menu-wrap"
                   ref={menuRef}
                 >
                   <button
@@ -166,7 +166,7 @@ const Nav = () => {
           </div>
         ) : (
           <>
-            <div className="flex sm:relative sm:justify-start sm:flex-col sm:items-center sm:hidden">
+            <div className="flex sm:relative  sm:justify-start sm:flex-col sm:items-center sm:hidden">
               <button
                 onClick={toggleMenu}
                 className="hamburger-button m-auto"
@@ -179,6 +179,7 @@ const Nav = () => {
                 isOpen={isOpen}
                 onStateChange={({ isOpen }) => setIsOpen(isOpen)}
                 className="bm-menu mt-5"
+                
                 ref={menuRef}
               >
                 {providers &&
